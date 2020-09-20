@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/aperozo/Documents/APIManagementWorkshop/Exercise1/ToDoApi/ToDoApi.csproj": {}
+    "/home/aperozo/Documents/APIManagementWorkshop/ToDoApi/ToDoApi.csproj": {}
   },
   "projects": {
-    "/home/aperozo/Documents/APIManagementWorkshop/Exercise1/ToDoApi/ToDoApi.csproj": {
+    "/home/aperozo/Documents/APIManagementWorkshop/ToDoApi/ToDoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aperozo/Documents/APIManagementWorkshop/Exercise1/ToDoApi/ToDoApi.csproj",
+        "projectUniqueName": "/home/aperozo/Documents/APIManagementWorkshop/ToDoApi/ToDoApi.csproj",
         "projectName": "ToDoApi",
-        "projectPath": "/home/aperozo/Documents/APIManagementWorkshop/Exercise1/ToDoApi/ToDoApi.csproj",
+        "projectPath": "/home/aperozo/Documents/APIManagementWorkshop/ToDoApi/ToDoApi.csproj",
         "packagesPath": "/home/aperozo/.nuget/packages/",
-        "outputPath": "/home/aperozo/Documents/APIManagementWorkshop/Exercise1/ToDoApi/obj/",
+        "outputPath": "/home/aperozo/Documents/APIManagementWorkshop/ToDoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aperozo/.nuget/NuGet/NuGet.Config"
@@ -35,6 +35,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

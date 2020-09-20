@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Exercise1/ToDoApi/bin/Debug/netcoreapp3.1/ToDoApi.dll",
+            "program": "${workspaceFolder}/ToDoApi/bin/Debug/netcoreapp3.1/ToDoApi.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Exercise1/ToDoApi",
+            "cwd": "${workspaceFolder}/ToDoApi",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
