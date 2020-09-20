@@ -55,9 +55,11 @@ namespace NETConfAPI
                 });
 
                 // Set the comments path for the Swagger JSON and UI.
+                /*
                 var basePath = AppContext.BaseDirectory;
                 var xmlPath = Path.Combine(basePath, "ToDoApi.xml");
                 c.IncludeXmlComments(xmlPath);
+                */
             });
         }
 
