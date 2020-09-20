@@ -1,4 +1,4 @@
-# APIManagementWorkshop
+# Azure API Management Workshop
 
 The following is a Workshop Exercise for Azure API Management.
 
